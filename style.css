@@ -1,0 +1,148 @@
+body {
+	  margin: 0;
+	  font-family: Arial, Helvetica, sans-serif;
+	  background-color: #F6FDC3;
+	}
+
+.pill-nav{
+	 overflow: hidden;
+     background-color: #FFCF96;
+ 	 padding: 20px 10px;
+ 	 border: 1px solid #FF8911;
+}
+
+.pill-nav a {
+	  display: inline-block;
+	  color: black;
+	  text-align: center;
+	  padding: 12px;
+	  text-decoration: none;
+	  font-size: 17px;
+	  border-radius: 55px;
+
+	}
+
+	.pill-nav a:hover {
+	  background-color: #BFEA7C;
+	  color: black;
+	}
+
+	.pill-nav a.active {
+	  background-color: #416D19;
+	  color: white;
+	}
+
+	.pill a{
+	  display: inline-block;
+	  color: black;
+	  text-align: center;
+	  padding: 12px;
+	  text-decoration: none;
+	  font-size: 17px;
+	  border-radius: 55px;
+	  position: absolute;
+	  left: 200px;
+	}
+
+	.pill a:hover {
+	  background-color: green;
+	  color: black;
+	}
+
+	div.upperLeft{
+		position: relative;
+		left: 20px;
+		top: -750px;
+		justify-content: left;
+		font-size: 15px;
+	}
+
+	div.lowerLeft{
+		position: relative;
+		left: 20px;
+		top: -630px;
+		justify-content: left;
+		font-size: 15px;
+	}
+
+	div.lowerRight{
+		position: relative;
+		left: 550px;
+		bottom: 1210px;
+		width: 500px;
+		height: 100px;
+	}
+
+	div.center{
+		position: relative;
+		justify-content: center;
+		left: 490px;
+		bottom: 1320px;
+		width: 500px;
+		font-size: 16px;
+		font-style: italic;
+	}
+
+	.hey{
+		position: relative;
+		font-family: lucida handwriting;
+		font-size: 30px;
+		width: 500px;
+		bottom: 1250px;
+		left: 490px;
+	}
+
+	.name{
+		position: relative;
+		font-family: lucida handwriting;
+		font-size: 60px;
+		width: 500px;
+		bottom: 1280px;
+		left: 550px;
+	}
+
+	.pic{
+		position: relative;
+		left: 950px;
+		bottom: 370px;
+	}
+
+	.rectangle {
+	  width: 830px;
+	  height: 350px;
+	  background: linear-gradient(#416D19, #BFEA7C, white);
+	  border: 1px solid black;
+	  position: relative;
+	  top: 50px;
+	  left: 460px;
+	}
+
+	.circle{
+		width: 200px;
+		height: 200px;
+		background: linear-gradient(160deg, #416D19, #9BCF53, #BFEA7C, white);
+		border-radius: 50%;
+		position: absolute;
+		top: 150px;
+		left: -5px;
+	}
+
+	.circle1{
+		width: 180px;
+		height: 40px;
+		background: linear-gradient(40deg, #416D19, #9BCF53, #BFEA7C, white);
+		border-radius: 50px;
+		position: absolute;
+		top: 550px;
+		left: 10px;
+	}
+
+	.circle2{
+		width: 310px;
+		height: 40px;
+		background: linear-gradient(40deg, #416D19, #9BCF53, #BFEA7C, white);
+		border-radius: 50px;
+		position: absolute;
+		top: 550px;
+		left: 538px;
+	}
